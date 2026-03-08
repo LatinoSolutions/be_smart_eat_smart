@@ -16,6 +16,7 @@ import streamlit as st
 from ui.dashboard import render_dashboard
 from ui.quick_add import render_quick_add
 from ui.ingredient_entry import render_ingredient_entry
+from ui.today_log import render_today_log
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -63,6 +64,8 @@ left, right = st.columns([1, 1], gap="large")
 
 with left:
     render_dashboard()
+    st.divider()
+    render_today_log()
 
 with right:
     render_quick_add()
