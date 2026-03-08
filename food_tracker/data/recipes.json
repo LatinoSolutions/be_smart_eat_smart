@@ -1,0 +1,60 @@
+{
+  "broccoli_soup": {
+    "label": "Broccoli Soup",
+    "ingredients": {
+      "broccoli": 300,
+      "onion": 80,
+      "olive_oil": 10
+    },
+    "servings": 3
+  },
+  "protein_salad": {
+    "label": "Protein Salad",
+    "ingredients": {
+      "chicken_breast": 150,
+      "spinach": 80,
+      "tomato": 100,
+      "olive_oil": 10
+    },
+    "servings": 1
+  },
+  "zucchini_pasta": {
+    "label": "Zucchini Pasta",
+    "ingredients": {
+      "zucchini": 250,
+      "tomato": 150,
+      "olive_oil": 15,
+      "garlic": 5
+    },
+    "servings": 1
+  },
+  "cauliflower_rice": {
+    "label": "Cauliflower Rice",
+    "ingredients": {
+      "cauliflower": 300,
+      "olive_oil": 10,
+      "garlic": 5
+    },
+    "servings": 2
+  },
+  "lentil_bowl": {
+    "label": "Lentil Bowl",
+    "ingredients": {
+      "lentils_cooked": 250,
+      "onion": 60,
+      "tomato": 80,
+      "olive_oil": 10
+    },
+    "servings": 1
+  },
+  "smoothie": {
+    "label": "Smoothie",
+    "ingredients": {
+      "banana": 100,
+      "greek_yogurt": 150,
+      "whey_protein": 30,
+      "spinach": 30
+    },
+    "servings": 1
+  }
+}

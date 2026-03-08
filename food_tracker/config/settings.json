@@ -1,0 +1,8 @@
+{
+  "daily_calories_target": 1800,
+  "protein_target": 140,
+  "carbs_target": 120,
+  "fat_target": 70,
+  "fasting_start": "19:00",
+  "fasting_end": "10:30"
+}
