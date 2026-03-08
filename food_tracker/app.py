@@ -25,6 +25,24 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
+# ── PWA: manifest + service worker registration ──────────────────────────────
+st.markdown(
+    """
+    <link rel="manifest" href="/static/manifest.json">
+    <meta name="theme-color" content="#0e1117">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="EatSmart">
+    <link rel="apple-touch-icon" href="/static/icon-192.png">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/static/service_worker.js');
+      }
+    </script>
+    """,
+    unsafe_allow_html=True,
+)
+
 # ── Custom CSS: tighten spacing on mobile ─────────────────────────────────────
 st.markdown(
     """
