@@ -17,6 +17,7 @@ from ui.dashboard import render_dashboard
 from ui.quick_add import render_quick_add
 from ui.ingredient_entry import render_ingredient_entry
 from ui.today_log import render_today_log
+from ui.scan_food import render_food_scanner
 
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
@@ -71,3 +72,5 @@ with right:
     render_quick_add()
     st.divider()
     render_ingredient_entry()
+    st.divider()
+    render_food_scanner()
